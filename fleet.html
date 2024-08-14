@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Luxuriously - Car Fleet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="fleet.html">Car Fleet</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="fleet-hero">
+            <h1>Our Luxury Fleet</h1>
+        </section>
+
+        <section id="car-filters">
+            <h2>Find Your Perfect Ride</h2>
+            <form id="filter-form">
+                <select id="car-type-filter">
+                    <option value="">All Types</option>
+                    <option value="compact">Compact Car</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="premium-suv">Premium SUV</option>
+                </select>
+                <select id="price-filter">
+                    <option value="">All Prices</option>
+                    <option value="low">$40 - $50 per day</option>
+                    <option value="medium">$50 - $70 per day</option>
+                    <option value="high">$70+ per day</option>
+                </select>
+                <button type="submit">Apply Filters</button>
+            </form>
+        </section>
+
+        <section id="car-listings">
+            <!-- Car listings will be dynamically populated here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Drive Luxuriously. All rights reserved.</p>
+    </footer>
+
+    <script src="fleet-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Drive Luxuriously</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="fleet.html">Car Fleet</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <a href="#reservation" class="cta-button">Book Now</a>
+        </section>
+
+        <section id="reservation">
+            <h2>Online Reservation </h2>
+            <form id="reservation-form">
+                <input type="date" id="pickup-date" required>
+                <input type="date" id="return-date" required>
+                <select id="car-type" required>
+                    <option value="">Select a car type</option>
+                    <option value="sedan">Luxury Sedan</option>
+                    <option value="suv">Premium SUV</option>
+                    <option value="sports">Sports Car</option>
+                </select>
+                <button type="submit">Check Availability</button>
+            </form>
+        </section>
+
+        <section id="car-gallery">
+            <h2>Our Fleet</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <img src="Silver 2017 Tesla Model S 75.jpg" alt="Luxury Car 1">
+                    <img src="Everlasting Silver Kia Sorento 2022.jpg" alt="Luxury Car 2">
+                    <img src="Silver Kia Sorento 2016.jpg" alt="Luxury Car 3">
+                    <img src="Silver Sentra 2013.jpg" alt="Luxury Car 4">
+                    <img src="Silver Kia Optima 2014.jpg" alt="Luxury Car 5">
+                    <img src="White Kia Optima 2017.jpg" alt="Luxury Car 6">
+                    <img src="Red Kia Optima 2012.jpg" alt="Luxury Car 7">
+                    <img src="Grey Sentra 2015 SV.jpg" alt="Luxury Car 8">
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <h2>Elevate Your Drive: Affordable Luxury with Uncompromised Safety</h2>
+        </section>        
+
+        <section id="rental-agreement">
+            <h2>Rental Agreement</h2>
+            <p>Please review our <a href="Private Car Rental Agreement.pdf">rental agreement</a> before booking.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Drive Luxuriously. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
